@@ -5,7 +5,7 @@ import { FaSearch } from "react-icons/fa";
 const Hero = () => {
   return (
     <section
-      className="relative h-screen bg-cover bg-center text-white "
+      className="relative min-h-screen bg-cover bg-center text-white "
       style={{ backgroundImage: `url(${bannerImg})` }}
     >
       <div className="md:pt-30 px-2 pt-24 text-center space-y-8 md:w-1/2 mx-auto">
@@ -19,15 +19,15 @@ const Hero = () => {
         </p>
 
         {/* Search button design */}
-        <div className="relative inline-block border-x-blue-300">
+        <div className="relative inline-block border-x-blue-300 z-10">
           <input className="bg-white/15 w-80 px-6 py-2 rounded-full border border-gray-300 focus:outline-none" type="text" placeholder="Search furniture" />
-          <div className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-primary p-2 rounded-full cursor-pointer hover:bg-white hover:text-primary transition-colors duration-300 ease-in-out">
+          <div className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-primary p-2 rounded-full cursor-pointer hover:bg-white hover:text-primary transition-colors duration-300 ease-in-out ">
           <FaSearch />
         </div>
         </div>
         {/* blur shadow bottom background */}
-        <div className="absolute inset-x-0 bottom-0 h-3/4 -mb-2
-         bg-gradient-to-t from-white via-transparent to-transparent blur=sm"/>
+      <div className="absolute inset-x-0 -mb-5 bottom-0 h-3/4 bg-gradient-to-t from-white via-transparent to-transparent blur-sm"></div>
+
         
       </div>
     </section>
