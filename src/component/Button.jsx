@@ -1,5 +1,5 @@
 import React from "react";
-import btnIcon from '../assets/button-arrow.png'
+import btnIcon from '../assets/button-icon.png'
 const Button = ({btnText}) => {
   return (
     <button className="text-sm text-primary flex items-center gap-1 cursor-pointer">
