@@ -19,3 +19,7 @@
 .section-container{
   @apply max-w-screen-2xl container mx-auto py-6 px-4;
 }
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  @apply  ring-primary hover:text-white hover:bg-primary rounded-full bg-white text-black text-lg !important;
+}
