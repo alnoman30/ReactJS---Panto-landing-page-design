@@ -19,7 +19,25 @@
 .section-container{
   @apply max-w-screen-2xl container mx-auto py-6 px-4;
 }
-.swiper-button-prev:after,
-.swiper-button-next:after {
-  @apply  ring-primary hover:text-white hover:bg-primary rounded-full bg-white text-black text-lg !important;
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 0.5rem 1rem;    
+  color: #E58411 !important;
+  border-radius: 50%;      
+  border: 1px solid #E58411;  
+  background-color: white;             
+  font-size: 1.125rem;       
+  transition: all 0.3s ease;  
+}
+
+/* style the arrows */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: rgb(255, 0, 0) ;               /* default arrow color */
+  font-size: 1.125rem;        /* match text-lg */
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #E58411; 
+  color: white !important;       
 }

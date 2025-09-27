@@ -9,8 +9,7 @@ import "swiper/css/pagination";
 import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination } from "swiper/modules";
-import { Navigation } from 'swiper/modules';
+import { Pagination, Autoplay,Navigation  } from "swiper/modules";
 import { reviews } from "../../utils/reviews";
 
 const Testimonials = () => {
@@ -31,6 +30,10 @@ const Testimonials = () => {
         pagination={{
           clickable: true,
         }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         navigation={true}
         breakpoints={{
           640: {
@@ -46,7 +49,7 @@ const Testimonials = () => {
             spaceBetween: 20,
           },
         }}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]}
         className="md:max-w-7xl mx-auto relative rounded"
       >
         {reviews.map((item, index) => (
