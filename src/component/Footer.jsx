@@ -4,11 +4,11 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F7F7F7] text-black dark:bg-gray-800 dark:text-white pt-20 mt-5">
+    <footer className="bg-[#F7F7F7] text-black  pt-20 mt-5">
       <div className="section-container grid grid-cols-1 sm:grid-cols-2 md:flex md:justify-between gap-8 px-8">
         {/* logo & details */}
         <div>
-          <h2 className="text-secondary font-bold text-3xl mb-6 cursor-pointer dark:text-white">
+          <h2 className="text-secondary font-bold text-3xl mb-6 cursor-pointer ">
             <Link to="/"></Link>Panto
           </h2>
           <p className="text-sm font-light w-[295px]">
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
       </div>
       {/* footer bottom */}
-      <div className="mt-12 section-container flex flex-col sm:flex-row sm:justify-between sm:items-center sm:text-center gap-4 text-left text-black dark:bg-gray-800 dark:text-white border-t border-gray-300 pt-4">
+      <div className="mt-12 section-container flex flex-col sm:flex-row sm:justify-between sm:items-center sm:text-center gap-4 text-left text-black border-t border-gray-300 pt-4">
         <div>
           <p>Copyright &copy; {new Date().getFullYear()}</p>
         </div>

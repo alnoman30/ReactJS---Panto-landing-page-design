@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className='rounded-[20px] shadow-sm bg-red '>
       {/* Image section */}
-      <div className='bg-[#FAFAFA] dark:bg-gray-800'>
+      <div className='bg-[#FAFAFA] '>
         <img
           src={getImageUrl(`${product.imageUrl}`)}
           alt={product.name}
