@@ -33,11 +33,30 @@
 /* style the arrows */
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  color: rgb(255, 0, 0) ;               /* default arrow color */
-  font-size: 1.125rem;        /* match text-lg */
+  color: rgb(255, 0, 0) ;          
+  font-size: 1.125rem;        
 }
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   background-color: #E58411; 
   color: white !important;       
+}
+
+/* Default bullets */
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: hsl(17, 100%, 55%) !important; 
+  opacity: 1;                
+  border-radius: 9999px;  
+  margin: 0 6px;         
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Active bullet */
+.swiper-pagination-bullet-active {
+  background-color: #E58411 !important;
+  width: 16px;               
+  height: 16px;
 }
