@@ -9,11 +9,15 @@
   }
 }
 
+
 @theme {
   --color-primary: #E58411;
   --color-secondary: #1E1E1E;
 
   --font-sans: "Poppins", sans-serif;
+}
+.dark {
+  @apply bg-gray-900 text-white;
 }
 
 .section-container{
