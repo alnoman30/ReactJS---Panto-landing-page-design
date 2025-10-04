@@ -5,7 +5,7 @@ import { FiPlus } from "react-icons/fi";
 
 const ProductCard = ({ product }) => {
   return (
-    <div className='rounded-[20px] shadow-sm bg-red dark:bg-black'>
+    <div className='rounded-[20px] shadow-sm bg-red '>
       {/* Image section */}
       <div className='bg-[#FAFAFA] dark:bg-gray-800'>
         <img
@@ -17,15 +17,15 @@ const ProductCard = ({ product }) => {
 
       {/* Content section */}
       <div className='p-6'>
-        <h4 className='text-base mb-1 dark:text-white'>{product.category}</h4>
-        <h3 className='font-semibold text-xl mb-2 dark:text-white'>{product.name}</h3>
+        <h4 className='text-base mb-1 '>{product.category}</h4>
+        <h3 className='font-semibold text-xl mb-2 '>{product.name}</h3>
         <Rating rating={product.rating} />
 
         <div className='mt-5 flex justify-between items-center'>
-          <p className='text-secondary dark:text-white font-bold text-lg'>
+          <p className='text-secondary  font-bold text-lg'>
             <sup>$</sup> <span>{product.price}</span>
           </p>
-          <button className='bg-secondary text-white p-2 rounded-full hover:bg-primary transition-colors cursor-pointer dark:bg-primary dark:hover:bg-secondary'>
+          <button className='bg-secondary text-white p-2 rounded-full hover:bg-primary transition-colors cursor-pointer '>
             <FiPlus />
           </button>
         </div>

@@ -11,7 +11,7 @@ const Materials = () => {
         <div className='md:w-1/2 mx-auto'>
             <h3 className='uppercase font-semibold text-lg text-primary mb-4'>materials</h3>
             <h2 className='capitalize text-4xl font-bold lg:w-[413px] mb-4'>Very serious materials for making furniture</h2>
-            <p className='text-secondary dark:text-white mb-5 lg:w-2/3'>Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price</p>
+            <p className='text-secondary  mb-5 lg:w-2/3'>Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price</p>
             <Button  btnText="More info" />
         </div>
         <div className='md:w-1/2 grid grid-cols-2 md:grid-cols-3 md:items-end items-center gap-2 mt-6 md:mt-0'>

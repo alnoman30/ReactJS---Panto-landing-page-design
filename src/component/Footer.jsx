@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
-import ThemeToggle from "./ThemeToggle";
 
 const Footer = () => {
   return (
@@ -88,8 +87,6 @@ const Footer = () => {
           <p>Privacy Policy</p>
         </div>
       </div>
-
-      <ThemeToggle/>
     </footer>
   );
 };

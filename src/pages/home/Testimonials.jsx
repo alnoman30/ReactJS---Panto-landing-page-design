@@ -65,11 +65,11 @@ const Testimonials = () => {
                   className="size-20 absolute bg-white p-2 rounded-full -top-5 left-1/2 -translate-x-1/2 ring-2 ring-primary object-cover"
                 />
                 <div className="mt-16 text-center">
-                  <h3 className="text-lg font-semibold dark:text-black">
+                  <h3 className="text-lg font-semibold ">
                     {item.name}
                   </h3>
-                  <p className=" mb-3 font-normal text-xs text-gray-500 dark:text-black">{item.designation}</p>
-                  <p className="text-gray-500 dark:text-black mb-4">
+                  <p className=" mb-3 font-normal text-xs text-gray-500 ">{item.designation}</p>
+                  <p className="text-gray-500  mb-4">
                     "{item.review}"
                   </p>
 
