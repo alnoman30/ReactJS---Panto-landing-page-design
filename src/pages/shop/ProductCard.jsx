@@ -7,7 +7,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className='rounded-[20px] shadow-sm bg-red dark:bg-black'>
       {/* Image section */}
-      <div className='bg-[#FAFAFA]'>
+      <div className='bg-[#FAFAFA] dark:bg-gray-800'>
         <img
           src={getImageUrl(`${product.imageUrl}`)}
           alt={product.name}
@@ -25,7 +25,7 @@ const ProductCard = ({ product }) => {
           <p className='text-secondary dark:text-white font-bold text-lg'>
             <sup>$</sup> <span>{product.price}</span>
           </p>
-          <button className='bg-secondary text-white p-2 rounded-full hover:bg-primary transition-colors cursor-pointer'>
+          <button className='bg-secondary text-white p-2 rounded-full hover:bg-primary transition-colors cursor-pointer dark:bg-primary dark:hover:bg-secondary'>
             <FiPlus />
           </button>
         </div>
